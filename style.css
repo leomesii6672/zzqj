@@ -1,0 +1,143 @@
+* {
+	margin: 0;
+	padding: 0%;
+}
+body{
+	background: url("../img/v2-561fb669214f6648202fba18ee8c957e_1440w.webp");
+	background-size: cover;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	
+}
+.header {
+	width: 100%;
+	height: 40px;
+	background-color: antiquewhite;
+	text-align: center;
+	min-width: 1226px;
+}
+
+.header li {
+	float: left;
+	height: auto;
+	margin-top: 0px;
+	margin-left: 35px;
+}
+
+.list1 {
+	padding-left: 10px;
+	float: left;
+}
+
+.topic {
+	text-align: center;
+	font-size: 3.75rem;
+	font-family: serif;
+}
+
+.list2 {
+	margin-top: 5px;
+	float: right;
+	margin-right: 10px;
+	padding: 8px;
+}
+
+.list1 li {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 24px;
+}
+
+.sduimg {
+	float: left;
+	padding-left: 0.3125rem;
+}
+
+.major {
+	width: 1226px;
+	height: auto;
+}
+
+.post1 {
+	width: 300px;
+	height: 200px;
+	margin-left: 85px;
+	margin-top: 15px;
+	font-size: 30px;
+}
+.drop1{
+	position: absolute;
+	z-index:3;
+	display: none;
+	width: 316px;
+	height: 100px;
+	margin-left: 0px;
+	background-color: bisque;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+	
+}
+.drop1:hover>.drop1{
+	display: block;
+}
+.foot:hover>.drop1{
+	display: block;
+}
+.floor1{
+	width:1226px;
+	height: 500px;
+}
+.games{
+	z-index:1;
+	text-align: left;
+	width: 250px;
+	height:500px;
+	background-color: rgba(20, 40, 15, 0.5);
+	margin-left: 5px;
+	margin-top: 5px;
+	float: left;
+}
+.games a{
+	font-size: 30px;
+	line-height: 90px;
+	margin-left: 20px;
+	z-index: 1;
+	color: aqua;
+}
+.games span{
+	float: right;
+	margin-right: 10px;
+}
+.figures{
+	z-index: 1;
+	text-align: center;
+	width:700px;
+	height:450px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 7px;
+	margin-right: 7px;
+	background-color: rgba(40, 51, 114, 0.5);
+}
+.figures p{
+	font-size: 25px;
+	color: rgba(90, 155, 90, 1);
+}
+.famous{
+	width: 150px;
+	height: 500px;
+	margin-top: 5px;
+	float:left;
+	background-color:rgba(50,150,100,0.4);
+}
+.famous i{
+	z-index: 2;
+	float: left;
+}
+.famous p{
+	text-align: center;
+	font-size: 30px;
+	color: brown
+}
+.video{
+	width:500px;
+	height:270px;
+}
